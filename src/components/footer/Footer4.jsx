@@ -95,7 +95,7 @@ export default function Footer4() {
                     </div>
                   </div>
                 </div>
-                <div className="app-widget at-home8">
+                {/* <div className="app-widget at-home8">
                   <h5 className="title  mb20">Apps</h5>
                   <div className="row mb-4 mb-lg-5">
                     <div className="col-auto">
@@ -125,7 +125,7 @@ export default function Footer4() {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <FooterSocial4 />
               </div>
             </div>

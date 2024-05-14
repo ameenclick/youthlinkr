@@ -1,74 +1,57 @@
-"use client";
 import Link from "next/link";
-import Mega from "./Mega";
-import Image from "next/image";
 import Navigation from "./Navigation";
-import useStickyMenu from "@/hook/useStickyMenu";
-import MobileNavigation1 from "./MobileNavigation1";
+import Image from "next/image";
+import MobileNavigation3 from "./MobileNavigation3";
 
-export default function Header1() {
-  const sticky = useStickyMenu(50);
-
+export default function Header4() {
   return (
     <>
       <header
-        className={`header-nav nav-homepage-style stricky main-menu animated   ${
-          sticky ? "slideInDown stricky-fixed" : "slideIn"
-        }`}
+        className="header-nav nav-innerpage-style stricky main-menu at-home3 bdrb1"
+        style={{ padding: "18px 0" }}
       >
         <nav className="posr">
-          <div className="container-fluid posr menu_bdrt1 px30">
+          <div className="container posr menu_bdrt1">
             <div className="row align-items-center justify-content-between">
-              <div className="col-auto px-0">
+              <div className="col-auto">
                 <div className="d-flex align-items-center justify-content-between">
-                  <div className="logos br-white-light pr30 pr5-xl">
-                    <Link className="header-logo logo1" href="/">
-                      <Image
-                        height={40}
-                        width={133}
-                        src="/images/header-logo.svg"
-                        alt="Header Logo"
-                      />
-                    </Link>
+                  <div className="logos mr20">
                     <Link className="header-logo logo2" href="/">
                       <Image
                         height={40}
                         width={133}
-                        src="/images/header-logo2.svg"
+                        src="/images/yrl-long-jpeg"
                         alt="Header Logo"
                       />
                     </Link>
                   </div>
-                  <div className="home1_style">
-                    <Mega />
-                  </div>
+                  <Navigation />
                 </div>
               </div>
-              <div className="col-auto px-0">
+              <div className="col-auto">
                 <div className="d-flex align-items-center">
-                  <Navigation />
                   <a
-                    className="login-info bdrl1 pl15-lg pl30"
+                    className="login-info"
                     data-bs-toggle="modal"
                     href="#exampleModalToggle"
                   >
                     <span className="flaticon-loupe" />
                   </a>
-                  <Link
-                    className={`login-info mx15-lg mx30`}
+                  {/* <Link
+                    className="login-info mx15-lg mx30"
                     href="/become-seller"
                   >
-                    <span className="d-none d-xl-inline-block">Become a</span>{" "}
+                    <span className="d-none d-xl-inline-block">Become a </span>
                     Seller
-                  </Link>
-                  <Link className={`login-info mr15-lg mr30`} href="/login">
+                  </Link> */}
+                  <Link className="login-info mr15-lg mr30" href="/login">
                     Sign in
                   </Link>
                   <Link
-                    className="ud-btn btn-white add-joining"
+                    className="ud-btn btn-home3 add-joining"
                     href="/register"
                   >
-                    Join
+                    Sign up
                   </Link>
                 </div>
               </div>
@@ -76,7 +59,7 @@ export default function Header1() {
           </div>
         </nav>
       </header>
-      <MobileNavigation1 />
+      <MobileNavigation3 />
     </>
   );
 }

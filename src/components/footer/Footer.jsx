@@ -161,7 +161,7 @@ export default function Footer() {
                     path === "/home-11" ? "text-white" : "text-white-light"
                   } ff-heading`}
                 >
-                  © Freeio. 2023{" "}
+                  © YouthLinkR. 2024{" "}
                   <Link
                     href="https://themeforest.net/user/ib-themes/portfolio"
                     target="_blank"

@@ -24,17 +24,17 @@ export default function OurFunFact2() {
                   className="bounce-x img-1 default-box-shadow4 object-fit-contain"
                 />
                 <div className="iconbox-small1 d-none d-lg-block wow fadeInRight default-box-shadow4 bounce-x animate-up-1 animated">
-                  <span className="icon flaticon-review" />
+                  <span className="icon " />
                   <div className="details">
-                    <h6 className="mb-1">4.9/5</h6>
-                    <p className="text fz13 mb-0">Clients rate professionals</p>
+                    <h6 className="mb-1">0</h6>
+                    <p className="text fz13 mb-0">Internships connected</p>
                   </div>
                 </div>
                 <div className="iconbox-small2 d-none d-lg-block wow fadeInLeft default-box-shadow4 bounce-y animate-up-2 animated">
                   <span className="icon flaticon-review" />
                   <div className="details">
-                    <h6 className="mb-1">+12M</h6>
-                    <p className="text fz13 mb-0">Project Completed</p>
+                    <h6 className="mb-1">0</h6>
+                    <p className="text fz13 mb-0">Internships in Qatar</p>
                   </div>
                 </div>
               </div>
@@ -43,35 +43,36 @@ export default function OurFunFact2() {
               <div className="mb30">
                 <div className="mb30">
                   <h2 className="title mb30">
-                    Join World's Best Marketplace{" "}
+                    Qatar's 1st Internship Marketplace
                     <br className="d-none d-xl-block" />
-                    for Workers
+                    for University Students & Grads
                   </h2>
                   <p className="text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                    We are on a mission to help university students to get their first employment oppertunity
                   </p>
                 </div>
                 <div className="list-style2">
                   <ul className="mb25">
                     <li>
                       <i className="far fa-check" />
-                      Connect to freelancers with proven business experience
+                      Connect proactive interns with recruiters employement scope
                     </li>
                     <li>
                       <i className="far fa-check" />
-                      Get matched with the perfect talent by a customer success
-                      manager
+                      Get matched with the proactive talents by our analytics dashboard
                     </li>
                     <li>
                       <i className="far fa-check" />
-                      Unmatched quality of remote, hybrid, and flexible jobs
+                      Oppertunity to enroll for remote, hybrid, and flexible interships
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      Attain your course credits through internships
                     </li>
                   </ul>
                 </div>
                 <Link href="/contact" className="ud-btn btn-thm-border">
-                  Find Talent <i className="fal fa-arrow-right-long" />
+                  Find Interns <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
             </div>

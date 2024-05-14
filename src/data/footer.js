@@ -1,10 +1,10 @@
 export const about = [
   { id: 1, name: "Careers", path: "/" },
-  { id: 2, name: "Press & News", path: "/" },
+  // { id: 2, name: "Press & News", path: "/" },
   { id: 3, name: "Partnerships", path: "/" },
   { id: 4, name: "Privacy Policy", path: "/" },
   { id: 5, name: "Terms of Service", path: "/" },
-  { id: 6, name: "Investor Relations", path: "/" },
+  // { id: 6, name: "Investor Relations", path: "/" },
 ];
 
 export const category = [
@@ -21,9 +21,6 @@ export const category = [
 
 export const support = [
   { id: 1, name: "Help & Support", path: "/" },
-  { id: 2, name: "Trust & Safety", path: "/" },
-  { id: 3, name: "Selling on Freeio", path: "/" },
-  { id: 4, name: "Buying on Freeio", path: "/" },
 ];
 
 export const momney = ["US$ USD", "Euro", "Pound"];

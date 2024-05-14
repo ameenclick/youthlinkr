@@ -1,5 +1,5 @@
 "use client";
-import Header1 from "@/components/header/Header1";
+import Header1 from "@/components/header/Header4";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer/Footer";
@@ -23,7 +23,7 @@ import {
   header9,
   sidebarEnable,
 } from "@/data/header";
-import Header4 from "@/components/header/Header4";
+import Header4 from "@/components/header/Header1";
 import Header5 from "@/components/header/Header5";
 import Footer2 from "@/components/footer/Footer2";
 import Header6 from "@/components/header/Header6";

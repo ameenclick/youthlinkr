@@ -2,7 +2,7 @@
 import UiElement from "@/components/section/UiElement";
 
 export const metadata = {
-  title: "Freeio - Freelance Marketplace React/Next Js Template | Ui Elements",
+  title: "YouthLinkR - Internships for graduates",
 };
 
 export default function page() {

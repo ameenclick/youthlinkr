@@ -31,9 +31,9 @@ export default function TrendingService2({ bgColor }) {
           <div className="row align-items-center wow fadeInUp">
             <div className="col-lg-9">
               <div className="main-title">
-                <h2 className="title">Trending Services</h2>
+                <h2 className="title">Trending Interships</h2>
                 <p className="paragraph">
-                  Most viewed and all-time top-selling services
+                  Most hiring internship roles
                 </p>
               </div>
             </div>
