@@ -31,7 +31,7 @@ export default function Navigation() {
                 }`}
               >
                 <span className="title">{item.name}</span>{" "}
-                {item.children && <span className="arrow "></span>}
+                {/* {item.children && <span className="arrow "></span>} */}
               </a>
             ) : (
               <Link

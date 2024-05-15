@@ -8119,7 +8119,7 @@ header.nav-homepage-style .menu-without-paddingy .visible_list a.list-item:befor
   transition: all 0.4s ease;
 }
 header.nav-homepage-style .ace-responsive-menu a {
-  color: #ffffff;
+  color: #1c1717;
   font-family: var(--title-font-family);
   font-weight: 500;
 }
@@ -8131,8 +8131,9 @@ header.nav-homepage-style .btn-mega {
 }
 header.nav-homepage-style .sidemenu-btn,
 header.nav-homepage-style .login-info {
-  color: #ffffff;
+  color: var(--headings-color);
 }
+
 header.nav-homepage-style.stricky.stricky-fixed {
   background-color: #ffffff;
   border-bottom: 1px solid #E9E9E9;

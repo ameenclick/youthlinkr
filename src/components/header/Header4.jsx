@@ -5,6 +5,8 @@ import Image from "next/image";
 import Navigation from "./Navigation";
 import useStickyMenu from "@/hook/useStickyMenu";
 import MobileNavigation1 from "./MobileNavigation1";
+const logoTransparent = "/images/about/ylr-fav-2.png"
+const logoBlue = "/images/about/ylr-long.jpeg"
 
 export default function Header1() {
   const sticky = useStickyMenu(50);
@@ -25,8 +27,8 @@ export default function Header1() {
                     <Link className="header-logo logo1" href="/">
                       <Image
                         height={40}
-                        width={133}
-                        src="/images/header-logo.svg"
+                        width={55}
+                        src={logoTransparent}
                         alt="Header Logo"
                       />
                     </Link>
@@ -34,34 +36,34 @@ export default function Header1() {
                       <Image
                         height={40}
                         width={133}
-                        src="/images/header-logo2.svg"
+                        src={logoBlue}
                         alt="Header Logo"
                       />
                     </Link>
                   </div>
-                  <div className="home1_style">
+                  {/* <div className="home1_style">
                     <Mega />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-auto px-0">
                 <div className="d-flex align-items-center">
                   <Navigation />
-                  <a
+                  {/* <a
                     className="login-info bdrl1 pl15-lg pl30"
                     data-bs-toggle="modal"
                     href="#exampleModalToggle"
                   >
                     <span className="flaticon-loupe" />
-                  </a>
-                  <Link
+                  </a> */}
+                  {/* <Link
                     className={`login-info mx15-lg mx30`}
                     href="/become-seller"
                   >
                     <span className="d-none d-xl-inline-block">Become a</span>{" "}
                     Seller
-                  </Link>
-                  <Link className={`login-info mr15-lg mr30`} href="/login">
+                  </Link> */}
+                  {/* <Link className={`login-info mr15-lg mr30`} href="/login">
                     Sign in
                   </Link>
                   <Link
@@ -69,7 +71,7 @@ export default function Header1() {
                     href="/register"
                   >
                     Join
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
