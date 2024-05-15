@@ -32,3 +32,5 @@ out
 # Ignore Dockerfile and docker-compose files (if you have them in your project directory)
 Dockerfile
 docker-compose.yml
+
+package-lock.json

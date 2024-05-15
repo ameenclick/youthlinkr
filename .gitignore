@@ -37,3 +37,5 @@ next-env.d.ts
 #Docker for development
 Dockerfile.dev
 docker-compose.yml
+
+package-lock.json
