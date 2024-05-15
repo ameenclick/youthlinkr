@@ -26,7 +26,7 @@ export default function Hero4() {
                 </p>
                 <div className="d-flex align-items-center mt30 animate-up-3">
                   <Link href="https://forms.gle/CMzfxypDAPiPrQGKA" target="_blank" className="ud-btn btn-thm me-3 rounded-pill">
-                    Intrested
+                    Interested
                   </Link>
                   {/* <Link href="/freelancer-1" className="ud-btn btn-thm-border">
                     Find Interns
